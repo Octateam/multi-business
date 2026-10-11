@@ -1,5 +1,5 @@
 import { lazy, Suspense, useState, type ComponentType } from 'react'
-import { Link, Routes, Route } from 'react-router-dom'
+import { Link, Routes, Route, useLocation } from 'react-router-dom'
 import { ROUTES } from './routes'
 import ScreenIndex, { ScreenIndexList } from './pages/ScreenIndex'
 import { BusinessProvider } from './context/BusinessContext'
@@ -41,6 +41,8 @@ function lazyPage(component: string): ComponentType {
 // (or picking a screen) returns you to exactly where you were.
 function PrototypeMenu() {
   const [open, setOpen] = useState(false)
+  // KYB steps have a fixed Save & exit / Continue footer; sit above it so Continue stays clickable.
+  const aboveFooter = useLocation().pathname.startsWith('/businesses/add/')
 
   return (
     <>
@@ -53,7 +55,7 @@ function PrototypeMenu() {
       )}
 
       {open && (
-        <div className="fixed bottom-20 right-5 z-50 flex w-[420px] max-w-[calc(100vw-2.5rem)] flex-col overflow-hidden rounded-2xl border border-border-disabled bg-white shadow-2xl">
+        <div className={`fixed right-5 z-50 flex w-[420px] ${aboveFooter ? 'bottom-[172px]' : 'bottom-20'} max-w-[calc(100vw-2.5rem)] flex-col overflow-hidden rounded-2xl border border-border-disabled bg-white shadow-2xl`}>
           <div className="flex shrink-0 items-center justify-between border-b border-border-disabled px-5 py-4">
             <div>
               <p className="font-heading text-base font-semibold text-text-primary">All screens</p>
@@ -77,7 +79,7 @@ function PrototypeMenu() {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="fixed bottom-5 right-5 z-50 rounded-pill bg-bg-inverted px-4 py-2.5 text-sm font-semibold text-white shadow-lg hover:bg-black"
+        className={`fixed right-5 z-50 rounded-pill ${aboveFooter ? 'bottom-[112px]' : 'bottom-5'} bg-bg-inverted px-4 py-2.5 text-sm font-semibold text-white shadow-lg hover:bg-black`}
       >
         {open ? 'Close' : 'All screens'}
       </button>

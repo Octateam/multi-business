@@ -2,6 +2,8 @@ import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { useNavigate } from 'react-router-dom'
 import AppShell from '../../../components/layout/AppShell'
 import Button from '../../../components/ui/Button'
+import { useSidebarContext } from '../../../context/SidebarContext'
+import { SIDEBAR_COLLAPSED_WIDTH, SIDEBAR_EXPANDED_WIDTH } from '../../../components/layout/sidebarDimensions'
 import {
   Chevron,
   DropdownMenu,
@@ -187,7 +189,7 @@ export function KybStepper({ current }: { current: StepKey }) {
 
 /** Full-page shell shared by all 4 KYB steps (node 46940:433322 "Page" +
  * node 46940:433405 "Footer"): back link, "Finish setting up {business}"
- * header, stepper, scrollable form body, sticky Save & exit / Continue
+ * header, stepper, scrollable form body, fixed Save & exit / Continue
  * footer. The initial "Tell us about your new business" modal (step 1)
  * does not use this shell — it's a dialog over Home, not a full page. */
 export function KybPageShell({
@@ -208,8 +210,10 @@ export function KybPageShell({
   children: ReactNode
 }) {
   const navigate = useNavigate()
+  const { collapsed } = useSidebarContext()
   return (
     <AppShell>
+      {/* Bottom padding keeps the last fields clear of the fixed footer. */}
       <div className="flex min-h-full w-full flex-col pb-24">
         <div className="flex w-full flex-1 flex-col items-start pb-16 pt-8">
           <button
@@ -238,15 +242,20 @@ export function KybPageShell({
           </div>
         </div>
 
-        {/* Pinned to the bottom of the content column, so the buttons line up with the 1071px content; the
-            border and background run out into the 91px margins. */}
-        <div className="sticky bottom-0 z-10 flex items-center justify-between py-5 before:absolute before:inset-y-0 before:-left-[91px] before:-right-[91px] before:-z-10 before:border-t before:border-border-disabled before:bg-surface">
-          <Button variant="secondary" size="lg" onClick={onSaveExit}>
-            Save &amp; exit
-          </Button>
-          <Button variant="primary" size="lg" onClick={onContinue} disabled={continueDisabled}>
-            {continueLabel}
-          </Button>
+        {/* Fixed to the bottom of the screen, from the sidebar's edge to the right edge. The buttons sit in a
+            1071px column with 91px margins so they line up with the content above. */}
+        <div
+          className="fixed bottom-0 right-0 z-20 border-t border-border-disabled bg-surface transition-[left] duration-200"
+          style={{ left: collapsed ? SIDEBAR_COLLAPSED_WIDTH : SIDEBAR_EXPANDED_WIDTH }}
+        >
+          <div className="mx-auto box-content flex w-[1071px] items-center justify-between px-[91px] py-5">
+            <Button variant="secondary" size="lg" onClick={onSaveExit}>
+              Save &amp; exit
+            </Button>
+            <Button variant="primary" size="lg" onClick={onContinue} disabled={continueDisabled}>
+              {continueLabel}
+            </Button>
+          </div>
         </div>
       </div>
     </AppShell>
