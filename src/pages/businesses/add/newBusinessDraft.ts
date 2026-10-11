@@ -31,6 +31,7 @@ export type NewBusinessDraft = {
   type: string
   // Company — Registration
   registrationNumber: string
+  /** 'DD/MM/YYYY', as HdsDatePicker reads and writes it. */
   dateOfIncorporation: string
   countryOfIncorporation: string
   countryOfOperation: string

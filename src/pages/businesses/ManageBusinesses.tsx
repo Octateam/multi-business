@@ -256,7 +256,7 @@ export default function ManageBusinesses() {
     startDraft({ businessId: row.id, businessName: row.name, email: row.email, phoneCountry: 'US', phone: '(555) 000-0003', category: 'Food & Beverage', type: 'Private limited company' })
     updateDraft({
       registrationNumber: 'RC 1234567',
-      dateOfIncorporation: '2018-03-14',
+      dateOfIncorporation: '14/03/2018',
       countryOfIncorporation: 'Nigeria',
       countryOfOperation: 'Nigeria',
       tin: '12345678-0001',

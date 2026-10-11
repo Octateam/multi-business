@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { FieldInput, FieldSelect } from '../shared'
-import { FieldShell } from '../../../components/ui/hds'
+import { FieldShell, HdsDatePicker, parseHdsDate } from '../../../components/ui/hds'
 import {
   KybPageShell,
   SectionLabel,
@@ -60,6 +60,7 @@ export default function KybCompany() {
       d.registeredAddress,
       d.proofType,
     ].every((value) => value.trim() !== '') &&
+    !!parseHdsDate(d.dateOfIncorporation) &&
     !registrationError &&
     d.certificateUploaded &&
     d.articlesUploaded &&
@@ -131,7 +132,13 @@ export default function KybCompany() {
           />
         </div>
         <div className="flex flex-wrap gap-5">
-          <FieldInput label="Date of incorporation" type="date" value={d.dateOfIncorporation} onChange={set('dateOfIncorporation')} half />
+          <HdsDatePicker
+            label="Date of incorporation"
+            value={d.dateOfIncorporation}
+            onChange={set('dateOfIncorporation')}
+            max={new Date()}
+            className="min-w-[240px] flex-1"
+          />
           <FieldSelect
             label="Country of incorporation"
             value={d.countryOfIncorporation}
