@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Bricolage+Grotesque:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+/* The app is a fixed-viewport shell (Sidebar + TopBar chrome stay put) — only the
+   content area inside AppShell scrolls, never the page/viewport itself. */
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f5f6f8;
+  color: #111927;
+}
+
+/* Card entrance used by The Improved Version's Create card success screen */
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(16px) rotateX(18deg) scale(0.96); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-\[cardIn_600ms_cubic-bezier\(\.2\,\.8\,\.2\,1\)\] { animation: none; }
+}
+
+/* Improved Version micro-interactions */
+@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+@keyframes slideInRight { from { transform: translateX(calc(100% + 40px)) } to { transform: none } }
+@keyframes popIn { from { opacity: 0; transform: translateY(-6px) scale(0.98) } to { opacity: 1; transform: none } }
+@keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+@keyframes ring { 0%, 100% { transform: rotate(0) } 15% { transform: rotate(14deg) } 30% { transform: rotate(-12deg) } 45% { transform: rotate(8deg) } 60% { transform: rotate(-4deg) } }
+@keyframes draw { from { stroke-dashoffset: 1 } to { stroke-dashoffset: 0 } }
+@keyframes grow { from { transform: scaleY(0) } to { transform: scaleY(1) } }
+@keyframes growX { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+@keyframes instiBlink { 0%, 90%, 100% { transform: scaleY(1) } 94% { transform: scaleY(0.12) } }
+@keyframes instiFloat { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-1.5px) } }
+@keyframes instiGlance { 0%, 100% { transform: translateX(0) } 30% { transform: translateX(-1.5px) } 70% { transform: translateX(1.5px) } }
+@keyframes instiSpark { 0%, 100% { transform: scale(1) rotate(0deg); opacity: 1 } 50% { transform: scale(0.75) rotate(45deg); opacity: 0.7 } }
+@media (prefers-reduced-motion: reduce) {
+  [class*="animate-["] { animation: none !important; }
+}
+
+/* Side drawers (pages/accounts/ui Drawer): slide in from the right and fade the overlay in. Plain class names (not
+   animate-[…]) so the entrance always plays. */
+@keyframes drawerSheetIn { from { transform: translateX(calc(100% + 40px)) } to { transform: translateX(0) } }
+@keyframes drawerOverlayIn { from { opacity: 0 } to { opacity: 1 } }
+.drawer-sheet-in { animation: drawerSheetIn 450ms cubic-bezier(0.32, 0.72, 0, 1) both; }
+.drawer-overlay-in { animation: drawerOverlayIn 450ms ease-out both; }

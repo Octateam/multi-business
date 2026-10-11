@@ -1,0 +1,3432 @@
+{
+  "version": 15,
+  "updatedAt": "2026-10-09T15:42:00Z",
+  "routes": {
+    "USD:global": {
+      "popular": [
+        "GBP",
+        "EUR",
+        "SGD",
+        "CAD",
+        "JPY"
+      ],
+      "all": [
+        "AED",
+        "AMD",
+        "ARS",
+        "AUD",
+        "BBD",
+        "BHD",
+        "BOB",
+        "BRL",
+        "BWP",
+        "CDF",
+        "CHF",
+        "CLP",
+        "CNH",
+        "COP",
+        "CRC",
+        "CZK",
+        "DKK",
+        "DOP",
+        "DZD",
+        "EGP",
+        "FJD",
+        "GEL",
+        "GHS",
+        "GTQ",
+        "HKD",
+        "HUF",
+        "IDR",
+        "ILS",
+        "INR",
+        "ISK",
+        "JOD",
+        "KES",
+        "KRW",
+        "KWD",
+        "LKR",
+        "MAD",
+        "MXN",
+        "MYR",
+        "NAD",
+        "NGN",
+        "NOK",
+        "NPR",
+        "NZD",
+        "OMR",
+        "PEN",
+        "PHP",
+        "PKR",
+        "PLN",
+        "QAR",
+        "RON",
+        "RSD",
+        "RWF",
+        "SAR",
+        "SEK",
+        "THB",
+        "TND",
+        "TRY",
+        "TWD",
+        "TZS",
+        "UGX",
+        "UYU",
+        "VND",
+        "XOF",
+        "ZAR",
+        "ZMW"
+      ]
+    },
+    "USD:local": {
+      "popular": [
+        "USD-local"
+      ],
+      "all": []
+    },
+    "NGN:local": {
+      "popular": [
+        "NGN-local"
+      ],
+      "all": []
+    }
+  },
+  "bank": {
+    "USD": {
+      "currency": "USD",
+      "name": "US Dollar",
+      "plural": "US dollars",
+      "country": "United States",
+      "flag": "us",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": false,
+      "summary": "Use these details to make your {currency} transfer. It will be credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "8301 2244 1067"
+        },
+        {
+          "label": "ACH / wire routing",
+          "value": "101019644"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Lead Bank"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "LEADUS44"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "1801 Main St Kansas City, MO 64108"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (USD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be credited to your Global USD Account.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "AED": {
+      "currency": "AED",
+      "name": "UAE Dirham",
+      "plural": "UAE dirhams",
+      "country": "United Arab Emirates",
+      "flag": "ae",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1015 4422 9910"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Emirates NBD"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "EBILAEAD"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Baniyas Road, Deira Dubai"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (AED) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "AMD": {
+      "currency": "AMD",
+      "name": "Armenian Dram",
+      "plural": "Armenian Dram",
+      "country": "Armenia",
+      "flag": "am",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000015838"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Armenia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTAMXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Armenia"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (AMD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "ARS": {
+      "currency": "ARS",
+      "name": "Argentine Peso",
+      "plural": "Argentine pesos",
+      "country": "Argentina",
+      "flag": "ar",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "0070 0999 2000 0012 3456 78"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Banco de Galicia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "GABAARBA"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Tte. Gral. J. D. Perón 430 Buenos Aires"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (ARS) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "AUD": {
+      "currency": "AUD",
+      "name": "Australian Dollar",
+      "plural": "Australian dollars",
+      "country": "Australia",
+      "flag": "au",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1067 2284"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Commonwealth Bank of Australia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "CTBAAU2S"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Ground Floor, Tower 1, 201 Sussex St Sydney NSW 2000"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (AUD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "BBD": {
+      "currency": "BBD",
+      "name": "Barbadian Dollar",
+      "plural": "Barbadian dollars",
+      "country": "Barbados",
+      "flag": "bb",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000039595"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Barbados"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTBBXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Barbados"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (BBD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "BHD": {
+      "currency": "BHD",
+      "name": "Bahraini Dinar",
+      "plural": "Bahraini dinars",
+      "country": "Bahrain",
+      "flag": "bh",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000047514"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Bahrain"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTBHXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Bahrain"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (BHD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "BOB": {
+      "currency": "BOB",
+      "name": "Bolivian Boliviano",
+      "plural": "Bolivian Boliviano",
+      "country": "Bolivia",
+      "flag": "bo",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000055433"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Bolivia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTBOXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Bolivia"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (BOB) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "BRL": {
+      "currency": "BRL",
+      "name": "Brazilian Real",
+      "plural": "Brazilian reais",
+      "country": "Brazil",
+      "flag": "br",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "0001 4421 9"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Banco Itaú"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "ITAUBRSP"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Praça Alfredo Egydio de Souza Aranha 100 São Paulo"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (BRL) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "BWP": {
+      "currency": "BWP",
+      "name": "Botswana Pula",
+      "plural": "Botswana Pula",
+      "country": "Botswana",
+      "flag": "bw",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000071271"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Botswana"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTBWXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Botswana"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (BWP) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "CAD": {
+      "currency": "CAD",
+      "name": "Canadian Dollar",
+      "plural": "Canadian dollars",
+      "country": "Canada",
+      "flag": "ca",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "5012 884 3310"
+        },
+        {
+          "label": "Institution / transit",
+          "value": "003 / 00002"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Royal Bank of Canada"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "ROYCCAT2"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "200 Bay Street Toronto, ON M5J 2J5"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (CAD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "CDF": {
+      "currency": "CDF",
+      "name": "Congolese Franc",
+      "plural": "Congolese francs",
+      "country": "DR Congo",
+      "flag": "cd",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000087109"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — DR Congo"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTCDXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, DR Congo"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (CDF) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "CHF": {
+      "currency": "CHF",
+      "name": "Swiss Franc",
+      "plural": "Swiss francs",
+      "country": "Switzerland",
+      "flag": "ch",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "CH93 0076 2011 6238 5295 7"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "UBS Switzerland AG"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "UBSWCHZH80A"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Bahnhofstrasse 45 8001 Zürich"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (CHF) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "CLP": {
+      "currency": "CLP",
+      "name": "Chilean Peso",
+      "plural": "Chilean pesos",
+      "country": "Chile",
+      "flag": "cl",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000102947"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Chile"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTCLXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Chile"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (CLP) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "CNH": {
+      "currency": "CNH",
+      "name": "Chinese Renminbi Offshore",
+      "plural": "Chinese Renminbi Offshore",
+      "country": "China",
+      "flag": "cn",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000110866"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — China"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTCNXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, China"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (CNH) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "COP": {
+      "currency": "COP",
+      "name": "Colombian Peso",
+      "plural": "Colombian pesos",
+      "country": "Colombia",
+      "flag": "co",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000118785"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Colombia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTCOXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Colombia"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (COP) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "CRC": {
+      "currency": "CRC",
+      "name": "Costa Rican Colon",
+      "plural": "Costa Rican Colon",
+      "country": "Costa Rica",
+      "flag": "cr",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000126704"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Costa Rica"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTCRXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Costa Rica"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (CRC) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "CZK": {
+      "currency": "CZK",
+      "name": "Czech Koruna",
+      "plural": "Czech Koruna",
+      "country": "Czech Republic",
+      "flag": "cz",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000134623"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Czech Republic"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTCZXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Czech Republic"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (CZK) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "DKK": {
+      "currency": "DKK",
+      "name": "Danish Krone",
+      "plural": "Danish kroner",
+      "country": "Denmark",
+      "flag": "dk",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000142542"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Denmark"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTDKXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Denmark"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (DKK) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "DOP": {
+      "currency": "DOP",
+      "name": "Dominican Peso",
+      "plural": "Dominican pesos",
+      "country": "Dominican Republic",
+      "flag": "do",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000150461"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Dominican Republic"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTDOXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Dominican Republic"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (DOP) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "DZD": {
+      "currency": "DZD",
+      "name": "Algerian Dinar",
+      "plural": "Algerian dinars",
+      "country": "Algeria",
+      "flag": "dz",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000158380"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Algeria"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTDZXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Algeria"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (DZD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "EGP": {
+      "currency": "EGP",
+      "name": "Egyptian Pound",
+      "plural": "Egyptian pounds",
+      "country": "Egypt",
+      "flag": "eg",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000166299"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Egypt"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTEGXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Egypt"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (EGP) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "EUR": {
+      "currency": "EUR",
+      "name": "Euro",
+      "plural": "euros",
+      "country": "Eurozone",
+      "flag": "european_union",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "IBAN",
+          "value": "DE89 5007 0010 0951 2344 00"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Deutsche Bank AG"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "DEUTDEFFXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Taunusanlage 12 60325 Frankfurt am Main"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (EUR) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "FJD": {
+      "currency": "FJD",
+      "name": "Fijian Dollar",
+      "plural": "Fijian dollars",
+      "country": "Fiji",
+      "flag": "fj",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000182137"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Fiji"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTFJXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Fiji"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (FJD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "GBP": {
+      "currency": "GBP",
+      "name": "Pound Sterling",
+      "plural": "pounds sterling",
+      "country": "United Kingdom",
+      "flag": "gb",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "43218765"
+        },
+        {
+          "label": "Sort code",
+          "value": "20-32-53"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Barclays Bank UK PLC"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "BUKBGB22"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "1 Churchill Place London E14 5HP"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (GBP) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "GEL": {
+      "currency": "GEL",
+      "name": "Georgian Lari",
+      "plural": "Georgian Lari",
+      "country": "Georgia",
+      "flag": "ge",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000197975"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Georgia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTGEXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Georgia"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (GEL) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "GHS": {
+      "currency": "GHS",
+      "name": "Ghanaian Cedi",
+      "plural": "Ghanaian Cedi",
+      "country": "Ghana",
+      "flag": "gh",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1441 0022 8812"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Ecobank Ghana"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "ECOCGHAC"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "2 Morocco Lane Accra"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (GHS) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "GTQ": {
+      "currency": "GTQ",
+      "name": "Guatemalan Quetzal",
+      "plural": "Guatemalan Quetzal",
+      "country": "Guatemala",
+      "flag": "gt",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000213813"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Guatemala"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTGTXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Guatemala"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (GTQ) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "HKD": {
+      "currency": "HKD",
+      "name": "Hong Kong Dollar",
+      "plural": "Hong Kong dollars",
+      "country": "Hong Kong",
+      "flag": "hk",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "808-123456-838"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "HSBC Hong Kong"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "HSBCHKHHHKH"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "1 Queen's Road Central Hong Kong"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (HKD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "HUF": {
+      "currency": "HUF",
+      "name": "Hungarian Forint",
+      "plural": "Hungarian Forint",
+      "country": "Hungary",
+      "flag": "hu",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000229651"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Hungary"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTHUXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Hungary"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (HUF) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "IDR": {
+      "currency": "IDR",
+      "name": "Indonesian Rupiah",
+      "plural": "Indonesian Rupiah",
+      "country": "Indonesia",
+      "flag": "id",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000237570"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Indonesia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTIDXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Indonesia"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (IDR) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "ILS": {
+      "currency": "ILS",
+      "name": "Israeli New Shekel",
+      "plural": "Israeli New Shekel",
+      "country": "Israel",
+      "flag": "il",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000245489"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Israel"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTILXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Israel"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (ILS) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "INR": {
+      "currency": "INR",
+      "name": "Indian Rupee",
+      "plural": "Indian rupees",
+      "country": "India",
+      "flag": "in",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "5010 0234 5678 91"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "HDFC Bank"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "HDFCINBB"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "HDFC Bank House, Senapati Bapat Marg Mumbai 400013"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (INR) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "ISK": {
+      "currency": "ISK",
+      "name": "Icelandic Krona",
+      "plural": "Icelandic kronor",
+      "country": "Iceland",
+      "flag": "is",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000261327"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Iceland"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTISXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Iceland"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (ISK) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "JOD": {
+      "currency": "JOD",
+      "name": "Jordanian Dinar",
+      "plural": "Jordanian dinars",
+      "country": "Jordan",
+      "flag": "jo",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000269246"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Jordan"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTJOXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Jordan"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (JOD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "JPY": {
+      "currency": "JPY",
+      "name": "Japanese Yen",
+      "plural": "Japanese yen",
+      "country": "Japan",
+      "flag": "jp",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "001-0098812"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "MUFG Bank, Ltd."
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "BOTKJPJT"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "2-7-1 Marunouchi, Chiyoda-ku Tokyo 100-8388"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (JPY) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "KES": {
+      "currency": "KES",
+      "name": "Kenyan Shilling",
+      "plural": "Kenyan shillings",
+      "country": "Kenya",
+      "flag": "ke",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "0240 2991 8812"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Equity Bank Kenya"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "EQBLKENA"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Equity Centre, Hospital Road Nairobi"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (KES) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "KRW": {
+      "currency": "KRW",
+      "name": "South Korean Won",
+      "plural": "South Korean won",
+      "country": "South Korea",
+      "flag": "kr",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000293003"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — South Korea"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTKRXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, South Korea"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (KRW) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "KWD": {
+      "currency": "KWD",
+      "name": "Kuwaiti Dinar",
+      "plural": "Kuwaiti dinars",
+      "country": "Kuwait",
+      "flag": "kw",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000300922"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Kuwait"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTKWXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Kuwait"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (KWD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "LKR": {
+      "currency": "LKR",
+      "name": "Sri Lankan Rupee",
+      "plural": "Sri Lankan rupees",
+      "country": "Sri Lanka",
+      "flag": "lk",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000308841"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Sri Lanka"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTLKXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Sri Lanka"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (LKR) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "MAD": {
+      "currency": "MAD",
+      "name": "Moroccan Dirham",
+      "plural": "Moroccan dirhams",
+      "country": "Morocco",
+      "flag": "ma",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000316760"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Morocco"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTMAXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Morocco"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (MAD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "MXN": {
+      "currency": "MXN",
+      "name": "Mexican Peso",
+      "plural": "Mexican pesos",
+      "country": "Mexico",
+      "flag": "mx",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "0121 8000 1234 5678 91"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "BBVA México"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "BCMRMXMM"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Paseo de la Reforma 510 Mexico City"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (MXN) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "MYR": {
+      "currency": "MYR",
+      "name": "Malaysian Ringgit",
+      "plural": "Malaysian Ringgit",
+      "country": "Malaysia",
+      "flag": "my",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000332598"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Malaysia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTMYXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Malaysia"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (MYR) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "NAD": {
+      "currency": "NAD",
+      "name": "Namibian Dollar",
+      "plural": "Namibian dollars",
+      "country": "Namibia",
+      "flag": "na",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000340517"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Namibia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTNAXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Namibia"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (NAD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "NGN": {
+      "currency": "NGN",
+      "name": "Nigerian Naira",
+      "plural": "Nigerian Naira",
+      "country": "Nigeria",
+      "flag": "ng",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1012 3456 78"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Zenith Bank"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "ZEIBNGLA"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "84 Ajose Adeogun Street Victoria Island, Lagos"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (NGN) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "NOK": {
+      "currency": "NOK",
+      "name": "Norwegian Krone",
+      "plural": "Norwegian kroner",
+      "country": "Norway",
+      "flag": "no",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000356355"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Norway"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTNOXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Norway"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (NOK) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "NPR": {
+      "currency": "NPR",
+      "name": "Nepalese Rupee",
+      "plural": "Nepalese rupees",
+      "country": "Nepal",
+      "flag": "np",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000364274"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Nepal"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTNPXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Nepal"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (NPR) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "NZD": {
+      "currency": "NZD",
+      "name": "New Zealand Dollar",
+      "plural": "New Zealand dollars",
+      "country": "New Zealand",
+      "flag": "nz",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "01-0102-0012345-00"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "ANZ Bank New Zealand"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "ANZBNZ22"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "23-29 Albert Street Auckland 1010"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (NZD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "OMR": {
+      "currency": "OMR",
+      "name": "Omani Rial",
+      "plural": "Omani rials",
+      "country": "Oman",
+      "flag": "om",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000380112"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Oman"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTOMXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Oman"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (OMR) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "PEN": {
+      "currency": "PEN",
+      "name": "Peruvian Nuevo Sol",
+      "plural": "Peruvian Nuevo Sol",
+      "country": "Peru",
+      "flag": "pe",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000388031"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Peru"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTPEXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Peru"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (PEN) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "PHP": {
+      "currency": "PHP",
+      "name": "Philippine Peso",
+      "plural": "Philippine pesos",
+      "country": "Philippines",
+      "flag": "ph",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000395950"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Philippines"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTPHXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Philippines"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (PHP) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "PKR": {
+      "currency": "PKR",
+      "name": "Pakistani Rupee",
+      "plural": "Pakistani rupees",
+      "country": "Pakistan",
+      "flag": "pk",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000403869"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Pakistan"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTPKXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Pakistan"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (PKR) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "PLN": {
+      "currency": "PLN",
+      "name": "Polish Zloty",
+      "plural": "Polish Zloty",
+      "country": "Poland",
+      "flag": "pl",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000411788"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Poland"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTPLXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Poland"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (PLN) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "QAR": {
+      "currency": "QAR",
+      "name": "Qatari Riyal",
+      "plural": "Qatari riyals",
+      "country": "Qatar",
+      "flag": "qa",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000419707"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Qatar"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTQAXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Qatar"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (QAR) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "RON": {
+      "currency": "RON",
+      "name": "Romanian Leu",
+      "plural": "Romanian Leu",
+      "country": "Romania",
+      "flag": "ro",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000427626"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Romania"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTROXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Romania"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (RON) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "RSD": {
+      "currency": "RSD",
+      "name": "Serbian Dinar",
+      "plural": "Serbian dinars",
+      "country": "Serbia",
+      "flag": "rs",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000435545"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Serbia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTRSXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Serbia"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (RSD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "RWF": {
+      "currency": "RWF",
+      "name": "Rwandan Franc",
+      "plural": "Rwandan francs",
+      "country": "Rwanda",
+      "flag": "rw",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000443464"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Rwanda"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTRWXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Rwanda"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (RWF) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "SAR": {
+      "currency": "SAR",
+      "name": "Saudi Arabian Riyal",
+      "plural": "Saudi Arabian riyals",
+      "country": "Saudi Arabia",
+      "flag": "sa",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000451383"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Saudi Arabia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTSAXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Saudi Arabia"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (SAR) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "SEK": {
+      "currency": "SEK",
+      "name": "Swedish Krona",
+      "plural": "Swedish kronor",
+      "country": "Sweden",
+      "flag": "se",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "SE45 5000 0000 0583 9825 7466"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "SEB"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "ESSESESS"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Kungsträdgårdsgatan 8 Stockholm"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (SEK) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "SGD": {
+      "currency": "SGD",
+      "name": "Singapore Dollar",
+      "plural": "Singapore dollars",
+      "country": "Singapore",
+      "flag": "sg",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "900437968068"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Standard Chartered Bank"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "SCBLSGSGXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "6 Battery Road Singapore 049909"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (SGD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "THB": {
+      "currency": "THB",
+      "name": "Thai Baht",
+      "plural": "Thai Baht",
+      "country": "Thailand",
+      "flag": "th",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000475140"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Thailand"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTTHXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Thailand"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (THB) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "TND": {
+      "currency": "TND",
+      "name": "Tunisian Dinar",
+      "plural": "Tunisian dinars",
+      "country": "Tunisia",
+      "flag": "tn",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000483059"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Tunisia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTTNXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Tunisia"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (TND) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "TRY": {
+      "currency": "TRY",
+      "name": "Turkish Lira",
+      "plural": "Turkish Lira",
+      "country": "Türkiye",
+      "flag": "tr",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000490978"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Türkiye"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTTRXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Türkiye"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (TRY) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "TWD": {
+      "currency": "TWD",
+      "name": "Taiwan Dollar",
+      "plural": "Taiwan dollars",
+      "country": "Taiwan",
+      "flag": "tw",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000498897"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Taiwan"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTTWXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Taiwan"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (TWD) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "TZS": {
+      "currency": "TZS",
+      "name": "Tanzanian Shilling",
+      "plural": "Tanzanian shillings",
+      "country": "Tanzania",
+      "flag": "tz",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000506816"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Tanzania"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTTZXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Tanzania"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (TZS) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "UGX": {
+      "currency": "UGX",
+      "name": "Ugandan Shilling",
+      "plural": "Ugandan shillings",
+      "country": "Uganda",
+      "flag": "ug",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000514735"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Uganda"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTUGXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Uganda"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (UGX) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "UYU": {
+      "currency": "UYU",
+      "name": "Uruguayan Peso",
+      "plural": "Uruguayan pesos",
+      "country": "Uruguay",
+      "flag": "uy",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000522654"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Uruguay"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTUYXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Uruguay"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (UYU) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "VND": {
+      "currency": "VND",
+      "name": "Vietnamese Dong",
+      "plural": "Vietnamese Dong",
+      "country": "Vietnam",
+      "flag": "vn",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000530573"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Vietnam"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTVNXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Vietnam"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (VND) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "XOF": {
+      "currency": "XOF",
+      "name": "West African CFA Franc",
+      "plural": "West African CFA francs",
+      "country": "West Africa (BCEAO)",
+      "flag": "xof",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000538492"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — West Africa (BCEAO)"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTXOXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, West Africa (BCEAO)"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (XOF) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "ZAR": {
+      "currency": "ZAR",
+      "name": "South African Rand",
+      "plural": "South African rand",
+      "country": "South Africa",
+      "flag": "za",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "0012 3456 7"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Standard Bank"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "SBZAZAJJ"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "5 Simmonds Street Johannesburg 2001"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (ZAR) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "ZMW": {
+      "currency": "ZMW",
+      "name": "Zambian Kwacha",
+      "plural": "Zambian Kwacha",
+      "country": "Zambia",
+      "flag": "zm",
+      "rail": "Local bank transfer",
+      "eta": "Varies by route",
+      "converts": true,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "1000554330"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Correspondent bank — Zambia"
+        },
+        {
+          "label": "SWIFT/BIC",
+          "value": "KRDTZMXXXXX"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "Kredete Inc."
+        },
+        {
+          "label": "Bank address",
+          "value": "Placeholder address, Zambia"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send funds in {currencyName} (ZMW) using the bank details shown above.",
+        "Use the bank details exactly as provided and include any reference or payment information shown.",
+        "Once received and processed, your funds will be converted to USD and credited to your Global USD Account.",
+        "The USD amount credited may reflect the applicable exchange rate and any bank or intermediary fees.",
+        "Processing times vary by currency, sending bank and payment route.",
+        "Bank details may change. Always check Hinstantt for the latest instructions before making a new deposit to this account."
+      ]
+    },
+    "USD-local": {
+      "currency": "USD",
+      "name": "US Dollar",
+      "plural": "US dollars",
+      "country": "United States",
+      "flag": "us",
+      "rail": "Local bank transfer",
+      "eta": "1–2 business days",
+      "converts": false,
+      "summary": "Use these details to make your {currency} transfer. It will be credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "8301 2244 {last4}"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Lead Bank"
+        },
+        {
+          "label": "Bank address",
+          "value": "1801 Main St Kansas City, MO 64108"
+        },
+        {
+          "label": "ACH routing",
+          "value": "101019644"
+        },
+        {
+          "label": "Wire routing",
+          "value": "101019644"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "{beneficiary}"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send USD from a US bank account in your company’s name by ACH or domestic wire.",
+        "Include your account reference {reference}.",
+        "This is a local US account, so international SWIFT transfers aren’t supported."
+      ]
+    },
+    "NGN-local": {
+      "currency": "NGN",
+      "name": "Nigerian Naira",
+      "plural": "Nigerian naira",
+      "country": "Nigeria",
+      "flag": "ng",
+      "rail": "Local bank transfer",
+      "eta": "1–2 business days",
+      "converts": false,
+      "summary": "Use these details to make your {currency} transfer. The amount will be converted and credited to your {target} balance.",
+      "fields": [
+        {
+          "label": "Account number",
+          "value": "908112{last4}"
+        },
+        {
+          "label": "Receiving bank",
+          "value": "Hinstantt MFB"
+        },
+        {
+          "label": "Beneficiary name",
+          "value": "{beneficiary}"
+        },
+        {
+          "label": "Reference",
+          "value": "{reference}"
+        }
+      ],
+      "instructions": [
+        "Send NGN from an account held in your company’s name. Third-party payments are returned.",
+        "Always include your account reference {reference} so we can credit {accountName}.",
+        "Typical arrival: 1–2 business days."
+      ]
+    }
+  },
+  "crypto": {
+    "instructions": [
+      "Send only the selected asset on the selected network. Anything else may be lost.",
+      "Deposits are credited 1:1 to {accountName} in USD once confirmed.",
+      "Include the memo {reference} on networks that require one."
+    ],
+    "assets": [
+      {
+        "code": "USDC",
+        "networks": [
+          {
+            "name": "Stellar",
+            "address": "GBH4TZYZ4IRCPO44CBOLFUHULU2WGALXTAVESQA6432MBJMABBB4GIYI",
+            "memo": "{reference}",
+            "minimum": "1 USDC",
+            "confirmation": "About 5 seconds"
+          },
+          {
+            "name": "Ethereum",
+            "address": "0x7a3B9d1E52c4F0a8B6e2D4c9F18A3b5C7E6d90F2",
+            "minimum": "20 USDC",
+            "confirmation": "About 3 minutes (12 blocks)"
+          },
+          {
+            "name": "Polygon",
+            "address": "0x4C2e8F1a9D7b3E6c5A0f2B8d1E9c7A3F6b4D2e81",
+            "minimum": "1 USDC",
+            "confirmation": "About 1 minute"
+          }
+        ]
+      },
+      {
+        "code": "USDT",
+        "networks": [
+          {
+            "name": "Polygon",
+            "address": "0x91Fd3A7c2E8b5D4f6A1c9E0b3D7a2F8c4E6B1d5A",
+            "minimum": "1 USDT",
+            "confirmation": "About 1 minute"
+          },
+          {
+            "name": "Ethereum",
+            "address": "0x2D8c4F6a1E9b7C3d5A0e8F2b6D1c9E4a7F3B5c08",
+            "minimum": "20 USDT",
+            "confirmation": "About 3 minutes (12 blocks)"
+          }
+        ]
+      }
+    ]
+  }
+}

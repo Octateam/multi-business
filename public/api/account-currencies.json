@@ -1,0 +1,303 @@
+{
+  "version": 11,
+  "updatedAt": "2026-10-06T09:00:00Z",
+  "_comment": "Currencies a customer can open a main account in. A currency with \"bank\" has that bank assigned (shown disabled). Providers with \"banks\" let the customer pick the bank; otherwise the provider displayBank is assigned. The creation fee only applies to providers listed in fee.providers. Providers with approvedRecipients ask for the expected senders before the account is created.",
+  "fee": {
+    "amount": 2,
+    "currency": "USD",
+    "display": "$2.00",
+    "note": "One-time fee per account, charged when the account is funded.",
+    "providers": [
+      "sokin"
+    ]
+  },
+  "providers": {
+    "partner-banks": {
+      "displayBank": "Lead Bank",
+      "banks": [
+        "Lead Bank",
+        "Cross River Bank",
+        "Stearns Bank",
+        "SSB Bank"
+      ]
+    },
+    "sokin": {
+      "displayBank": "BMO Bank",
+      "fundingDetails": {
+        "summary": "Share these details with anyone sending {currency} to your {accountName} account. Include the customer reference so the payment is matched to your account.",
+        "fields": [
+          {
+            "label": "Account title",
+            "value": "Kredete Technology Limited"
+          },
+          {
+            "label": "Account number",
+            "value": "6277282828229"
+          },
+          {
+            "label": "Bank name",
+            "value": "BMO Bank"
+          },
+          {
+            "label": "Bank country",
+            "value": "United States of America"
+          },
+          {
+            "label": "Bank address",
+            "value": "459 Canal Close, Chicago, IL, 67987"
+          },
+          {
+            "label": "SWIFT code",
+            "value": "GATRTW45"
+          },
+          {
+            "label": "Bank Customer Reference",
+            "value": "2562627"
+          },
+          {
+            "label": "Kredete Customer Reference",
+            "value": "KRD-7X92LM"
+          }
+        ],
+        "fundingFee": {
+          "label": "Funding fee",
+          "value": "1.5% per transaction, no cap"
+        },
+        "notes": [
+          {
+            "title": "Before you transfer",
+            "items": [
+              "Send only {currency} to these account details.",
+              "Use the account title exactly as displayed.",
+              "Enter the Bank Customer Reference exactly as provided, and include the Kredete Customer Reference in the payment narration/reference field.",
+              "Bank or intermediary fees may be deducted before the funds reach us.",
+              "Your balance will be updated after the payment has been received and reconciled.",
+              "We may contact you for additional payment information if we are unable to identify the transfer."
+            ]
+          }
+        ]
+      },
+      "approvedRecipients": {
+        "max": 5,
+        "title": "Confirm recipients",
+        "subtitle": "Add the businesses or accounts you expect to receive {currency} from.",
+        "notice": "Only approved recipients should send funds into this account. Payments from anyone else may be delayed or returned.",
+        "lockNotice": "Once the account is created, recipients can’t be edited, removed or added from your dashboard. Contact Support to change your approved list.",
+        "supportEmail": "support@hinstantt.com"
+      }
+    }
+  },
+  "currencies": [
+    {
+      "code": "USD",
+      "name": "US dollar",
+      "label": "USD - US dollar",
+      "flag": "us",
+      "symbol": "$",
+      "provider": "partner-banks",
+      "localRails": [
+        "ACH",
+        "Wire"
+      ],
+      "swift": false,
+      "enabled": true,
+      "bank": "SVB Bank"
+    },
+    {
+      "code": "EUR",
+      "name": "Euro",
+      "label": "EUR - Euro",
+      "flag": "european_union",
+      "symbol": "€",
+      "provider": "partner-banks",
+      "localRails": [
+        "ACH",
+        "Wire"
+      ],
+      "swift": false,
+      "enabled": true
+    },
+    {
+      "code": "GBP",
+      "name": "Pounds",
+      "label": "GBP - Pounds",
+      "flag": "gb",
+      "symbol": "£",
+      "provider": "partner-banks",
+      "localRails": [
+        "ACH",
+        "Wire"
+      ],
+      "swift": false,
+      "enabled": true
+    },
+    {
+      "code": "NGN",
+      "name": "Nigerian naira",
+      "label": "NGN - Nigerian naira",
+      "flag": "ng",
+      "symbol": "₦",
+      "provider": "partner-banks",
+      "localRails": [
+        "ACH",
+        "Wire"
+      ],
+      "swift": false,
+      "enabled": true
+    },
+    {
+      "code": "CHF",
+      "name": "Swiss franc",
+      "label": "CHF - Swiss franc",
+      "flag": "ch",
+      "symbol": "CHF",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "DKK",
+      "name": "Danish krone",
+      "label": "DKK - Danish krone",
+      "flag": "dk",
+      "symbol": "kr",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "HUF",
+      "name": "Hungarian forint",
+      "label": "HUF - Hungarian forint",
+      "flag": "hu",
+      "symbol": "Ft",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "ILS",
+      "name": "Israeli shekel",
+      "label": "ILS - Israeli shekel",
+      "flag": "il",
+      "symbol": "₪",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "JPY",
+      "name": "Japanese yen",
+      "label": "JPY - Japanese yen",
+      "flag": "jp",
+      "symbol": "¥",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "MXN",
+      "name": "Mexican peso",
+      "label": "MXN - Mexican peso",
+      "flag": "mx",
+      "symbol": "MX$",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "NOK",
+      "name": "Norwegian krone",
+      "label": "NOK - Norwegian krone",
+      "flag": "no",
+      "symbol": "kr",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "NZD",
+      "name": "New Zealand dollar",
+      "label": "NZD - New Zealand dollar",
+      "flag": "nz",
+      "symbol": "NZ$",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "PLN",
+      "name": "Polish zloty",
+      "label": "PLN - Polish zloty",
+      "flag": "pl",
+      "symbol": "zł",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "RON",
+      "name": "Romanian leu",
+      "label": "RON - Romanian leu",
+      "flag": "ro",
+      "symbol": "lei",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "SEK",
+      "name": "Swedish krona",
+      "label": "SEK - Swedish krona",
+      "flag": "se",
+      "symbol": "kr",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "SGD",
+      "name": "Singapore dollar",
+      "label": "SGD - Singapore dollar",
+      "flag": "sg",
+      "symbol": "S$",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "THB",
+      "name": "Thai baht",
+      "label": "THB - Thai baht",
+      "flag": "th",
+      "symbol": "฿",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    },
+    {
+      "code": "ZAR",
+      "name": "South African rand",
+      "label": "ZAR - South African rand",
+      "flag": "za",
+      "symbol": "R",
+      "provider": "sokin",
+      "localRails": [],
+      "swift": true,
+      "enabled": true
+    }
+  ]
+}
